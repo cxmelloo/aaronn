@@ -7,7 +7,7 @@ function RoutLayout() {
     <>
     <header className='bg-[#1A1A1A] py-7'>
       <div className="c-container flex items-center lg:items-end-safe">
-        <Link className="" to="/">
+        <Link className="flex" to="/">
             <img src={Logo} alt="aaronn-img" />
           </Link>
 
