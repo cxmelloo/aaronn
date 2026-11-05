@@ -41,7 +41,7 @@ function Highlight() {
       <div className="c-container  text-center">
         <h1 className='text-6xl font-syne text-white mb-14'>My Projects Highlight</h1>
 
-        <Link to="/project" className='text-white bg-transparent border-[#FF9142] border-2 py-4 px-7 rounded-4xl'>Explore More</Link>
+        <Link to="/project" className='text-white bg-transparent border-[#FF9142] border-2 py-4 px-7 rounded-4xl hover:bg-[#FF9142] hover:text-black active:opacity-80'>Explore More</Link>
 
         <div className='mt-20 text-start'>
           <ul className='grid grid-cols-1 md:grid-cols-2 gap-6'>

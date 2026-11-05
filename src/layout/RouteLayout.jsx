@@ -14,7 +14,7 @@ function RoutLayout() {
           <div className='ml-auto flex items-center'>
             <Navbar/>
 
-          <Link to='/contact' className='rounded-4xl py-3 px-8 text-[#FFFFFF] bg-[#03030480] border-2 border-[#FFFFFF4D] ml-11'>Contact</Link>
+          <Link to='/contact' className='rounded-4xl py-3 px-8 text-[#FFFFFF] bg-[#03030480] border-2 border-[#FFFFFF4D] ml-11 hover:bg-transparent hover:border-[#FF9142] active:opacity-80'>Contact</Link>
           </div>
       </div>
     </header>
