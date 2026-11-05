@@ -17,6 +17,6 @@ body{
   }
 
   .c-btn{
-    @apply py-5 px-7 text-white bg-[#FF9142] border-2 border-[#FF9142] rounded-4xl font-bold text-xs hover:bg-transparent hover:border-[#FF9142] active:opacity-80
+    @apply py-5 px-7 text-white bg-[#FF9142] border-2 border-[#FF9142Info] rounded-4xl font-bold text-xs hover:bg-transparent hover:border-[#FF9142] active:opacity-80
   }
 }
