@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap');
+
+@theme {
+  --font-syne: 'Syne', sans-serif;
+  --font-rubik: 'Rubik', sans-serif;
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+}
+
+@layer components{
+  .c-container{
+    @apply max-w-[1146px] w-full px-5 mx-auto
+  }
+
+  .c-btn{
+    @apply py-5 px-7 text-white bg-[#FF9142] rounded-5xl font-bold text-xs hover:bg-transparent hover:border-[#FF9142] active:opacity-80
+  }
+}
