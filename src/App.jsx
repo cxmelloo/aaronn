@@ -11,10 +11,10 @@ function App() {
     createRoutesFromElements(
       <Route element={<RouteLayout/>}>
         <Route path="/" element={<Home/>}/>
-        <Route path="/project" element={<Project/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/works" element={<Works/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="/project" element={<Project/>}/>
       </Route>
     )
   )
