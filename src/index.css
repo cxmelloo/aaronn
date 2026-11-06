@@ -19,4 +19,13 @@ body{
   .c-btn{
     @apply py-5 px-7 text-white bg-[#FF9142] border-2 border-[#FF9142] rounded-4xl font-bold text-xs hover:bg-transparent hover:border-[#FF9142] active:opacity-80
   }
+
+  
+.c-inp {
+  @apply w-full bg-transparent border-0 border-b border-[#555555]
+  rounded-none outline-none text-white text-sm font-medium
+  pb-5 pt-1 placeholder:text-white placeholder:uppercase
+  placeholder:opacity-100 focus:border-white transition-colors;
+}
+
 }
