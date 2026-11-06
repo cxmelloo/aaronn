@@ -1,5 +1,6 @@
 import InfoPic from '../assets/InfoPic.png'
 import Vector from '../assets/Vector.png'
+import PageHero from '../components/PageHero';
 import Footer from './Footer';
 
 function About() {
@@ -7,9 +8,7 @@ function About() {
     <>
     <section className='bg-[#1A1A1A] py-25'>
       <div className="c-container">
-        <h1 className='font-bold font-syne text-white text-7xl'>About Me</h1>
-        <p className='mt-4 font-medium text-[#949494] text-base'>Little Brief About Myself</p>
-      <div className="border border-[#949494] mb-9"></div>
+        <PageHero title='About Me' desc='Little Brief About Myself'/>
 
       <div className='py-22'>
         <div className='flex gap-9 pb-20'>
