@@ -1,5 +1,4 @@
 import PageHero from "../components/PageHero";
-import Footer from "./Footer";
 import Img1 from '../assets/works/Img1.svg'
 import Img2 from '../assets/works/Img2.png'
 import Img3 from '../assets/works/Img3.png'
