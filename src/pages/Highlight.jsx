@@ -6,8 +6,7 @@ import Img4 from '../assets/Img4.png'
 
 function Highlight() {
   const projects = [
-    {id: 1,
-      image: Img1,
+    {id: 1, image: Img1,
       alt: 'Organc-img',
       title: 'Brand Journey Improvements',
       client: 'Organc',
@@ -37,7 +36,7 @@ function Highlight() {
   ]
 
   return (
-    <section className='py-40 bg-[#1A1A1A]'>
+    <section className='py-20 md:py-40 bg-[#1A1A1A]'>
       <div className="c-container  text-center">
         <h1 className='text-6xl font-syne text-white mb-14'>My Projects Highlight</h1>
 
