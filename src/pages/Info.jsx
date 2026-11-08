@@ -7,7 +7,7 @@ function Info() {
       <div className="c-container flex flex-col-reverse lg:flex-row items-center justify-between gap-10 lg:gap-16">
 
         <div className='w-full max-w-2xl text-center lg:text-left'>
-          <h2 className='text-4xl text-5xl sm:text-6xl md:text-7xl font-syne font-bold text-white mb-6 leading-[110%]'>
+          <h2 className='text-5xl sm:text-6xl md:text-7xl font-syne font-bold text-white mb-6 leading-[110%]'>
             Let’s get know <br className='hidden sm:block' /> about me closer</h2>
 
           <p className='text-[#A8A8A8] text-base sm:text-lg font-rubik leading-[154%] mb-8 lg:mb-12'>
