@@ -1,6 +1,7 @@
 import { Link, Outlet } from 'react-router-dom'
 import Logo from '../assets/Logo.svg'
 import Navbar from '../components/Navbar';
+import Footer from '../pages/Footer';
 
 function RoutLayout() {
   return (
@@ -21,6 +22,7 @@ function RoutLayout() {
     <main>
       <Outlet/>
     </main>
+    <Footer/>
     </>
   )
 }

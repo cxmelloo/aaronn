@@ -53,7 +53,6 @@ function Works() {
       </div>
       </div>
     </section>
-    <Footer/>
     </>
   )
 }

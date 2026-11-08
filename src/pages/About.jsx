@@ -1,7 +1,6 @@
 import InfoPic from '../assets/InfoPic.png'
 import Vector from '../assets/Vector.png'
 import PageHero from '../components/PageHero';
-import Footer from './Footer';
 
 function About() {
   return (
@@ -31,7 +30,6 @@ function About() {
       </div>
     </section>
 
-    <Footer/>
     </>
   )
 }

@@ -1,5 +1,4 @@
 import PageHero from "../components/PageHero";
-import Footer from "./Footer";
 import Img1 from '../assets/projects/Img1.png'
 import Img2 from '../assets/projects/Img2.png'
 import Img3 from '../assets/projects/Img3.png'
@@ -59,7 +58,6 @@ function Project() {
         </div>
       </div>
     </section>
-    <Footer/>
     </>
   )
 }

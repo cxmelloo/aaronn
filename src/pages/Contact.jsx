@@ -1,5 +1,4 @@
 import PageHero from "../components/PageHero";
-import Footer from "./Footer";
 import Img from '../assets/Contact Pic.png'
 function Contact() {
   return (
@@ -29,7 +28,6 @@ function Contact() {
         </div>
       </div>
     </section>
-    <Footer/>
     </>
   )
 }
